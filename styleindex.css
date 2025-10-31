@@ -158,29 +158,5 @@
         height: 167px;
     }
 
-    
-    .click-div:active {
-        
-    }
 
-    .menu-div {
-        animation-name: menu-animation;
-        animation-duration: 0.5s;
-        position: fixed;
-        top: 0;
-        background-color: #ffffff;
-        width: 100%;
-        height: 100%;
-        margin: 0;
-    }
-
-}
-
-@keyframes menu-animation {
-    from {
-        top: -100%;
-    }
-    to {
-        top: 0;
-    }
 }
