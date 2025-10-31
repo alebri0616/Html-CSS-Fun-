@@ -13,7 +13,10 @@ header{
     
     
 }
-
+.Home{
+    text-decoration: none;
+    color: white;
+}
 .mountain{
     width: 100%;
     height: 20rem;

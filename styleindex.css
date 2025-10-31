@@ -81,6 +81,7 @@
     .shadow-img {
         width: 386px;
         height: 380px;
+        opacity: 50%;
     }
 
 }
@@ -156,6 +157,7 @@
     .shadow-img {
         width: 173px;
         height: 167px;
+        opacity: 50%;
     }
 
 
