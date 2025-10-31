@@ -1,0 +1,77 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 414px) {
+    body {
+        background-color: #262626;
+        padding: 16px 8px 16px 8px;
+    }
+
+    header {
+        width: 100%;
+        display: inline-flex;
+        justify-content: flex-end;
+    }
+
+    h1 {
+        color: #ffffff;
+        margin: 0.5rem;
+    }
+
+    h6 {
+        color: #cacaca;
+        margin: 0.5rem;
+    }
+
+    p {
+        color: #ffffff;
+        font-size: 16px;
+        line-height: 29px;
+        margin: 0.5rem;
+    }
+
+    div img {
+        width: 2rem;
+        height: auto;
+    }
+
+    picture {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    img {
+        width: 173px;
+        height: 167px;
+    }
+
+    .shadow-div-img {
+        width: 173px;
+        height: 167px;
+    }
+
+    div p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 173px;
+        height: 167px;
+        margin: 0;
+    }
+
+    .p-position {
+        position: absolute;
+        color: #ffffff;
+        font-size: 18px;
+    }
+
+    .shadow-img {
+        width: 173px;
+        height: 167px;
+    }
+}
