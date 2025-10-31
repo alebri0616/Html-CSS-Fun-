@@ -17,6 +17,8 @@ header{
 .mountain{
     width: 100%;
     height: 20rem;
+   
+
 }
 .icon {
     position: absolute;
@@ -45,9 +47,18 @@ h2{
 h1{
     margin: 1rem;
 }
-nav{
+.navigation{
+    display: none;
     margin: 1rem;
     margin-top: 10rem;
+}
+.navigationbar {
+ margin: 2rem;
+ margin-top: 10rem;
+}
+.navigationbar h1 {
+ 
+ margin-top: 2rem;
 }
 .contact{
     margin: 1rem;
@@ -66,8 +77,49 @@ nav{
     position:fixed;
     top: 0px;
     margin: 0;
-    display: none;
+
 }
-.icon:active{
-   display: block;
+@media ( min-width: 566px)
+{
+    .mountain{
+        display: flex;
+        justify-self: center;
+    height: 35rem;
+    width: 35rem;
+    border-radius: 1rem;
+    border-top: rgba(0, 0, 0, 0.671) solid 1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    }
+    h2{
+        display: flex;
+    margin: 1rem;
+    justify-self: center;
+    }
+    p{
+        display: flex;
+    margin: 1rem;
+    justify-self: center
 }
+    .icon{
+        display: none;
+    }
+    .smile{
+        width: 35rem;
+    }
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.671);
+        box-shadow: -1px 6px 30px 0px black;;
+    }
+    .nature{
+        border-top:#CACACA solid 0.5px;
+        padding: 1rem;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
